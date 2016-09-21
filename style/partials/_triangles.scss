@@ -1,0 +1,39 @@
+.triangle1 {
+  width: 0;
+  height: 0;
+  border-left: 10px solid #80BBE5;
+  border-right: 10px solid #80BBE5;
+  border-top: 10px solid white;
+  display: inline;
+  position: absolute;
+  top: -1px;
+  left: 134px;
+  z-index: 2;
+  opacity: 0;
+  transition: $transition;
+
+  @include media (1150px) {
+    left: 47%;
+  }
+
+  @include media (750px) {
+    left: 46%
+  }
+}
+
+.triangle2 {
+  @extend .triangle1;
+  left: 191px;
+
+  @include media (1150px) {
+      left: 68%;
+  }
+
+  @include media (750px) {
+    left: 67%
+  }
+
+  @include media (350px) {
+    left: 61%;
+  }
+}

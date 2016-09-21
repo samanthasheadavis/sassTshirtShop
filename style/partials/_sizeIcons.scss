@@ -1,0 +1,142 @@
+.sizeIcons {
+  left: 110px;
+  bottom: 38px;
+  position: absolute;
+  z-index: $z;
+  width: 66px;
+  border: $border;
+  opacity: 0;
+  transition: $transition;
+
+    @include media (1150px) {
+      left: 38%;
+    }
+
+    @include media (750px) {
+      left:35%;
+    }
+
+    @include media (575px) {
+      left: 33%
+    }
+
+    @include media (391px) {
+      width: 35%;
+      left: 36%;
+    }
+
+    td {
+      border: none;
+      padding: 3px;
+      text-align: center;
+      background: white;
+      color: black;
+    }
+
+    img {
+      width: 38px;
+      position: relative;
+      text-align: center;
+
+      @include media (575px) {
+        width:25px;
+      }
+
+      @include media (391px) {
+        width: 20px;
+      }
+
+      @include media (350px) {
+        width: 14px;
+      }
+    }
+
+    p {
+      position: absolute;
+      text-align: center;
+      font-family: $font;
+      font-weight: 300;
+      font-size: 11px;
+
+      @include media (575px) {
+        font-size: 9px;
+      }
+
+      @include media (391px) {
+        font-size: 7px;
+      }
+
+      @include media (350px) {
+        font-size: 5px;
+      }
+    }
+}
+
+    .xl {
+    top: 17px;
+    left: 26px;
+
+      @include media (575px) {
+        @include reposition-change (13px, 27px);
+      }
+
+      @include media (391px) {
+        @include reposition-change (12px, 18px)
+      }
+
+      @include media (350px) {
+        @include reposition-change (10px, 13px)
+      }
+    }
+
+    .l {
+    top: 67px;
+    left: 29px;
+
+    @include media (575px) {
+      top: 48px;
+      }
+
+    @include media (391px) {
+      @include reposition-change (42px, 20px)
+      }
+
+    @include media (350px) {
+      @include reposition-change (35px, 14px)
+      }
+    }
+
+    .m {
+    top: 117px;
+    left: 28px;
+
+    @include media (575px) {
+      top: 84px;
+    }
+
+    @include media (391px) {
+      @include reposition-change (72px, 18px)
+    }
+
+    @include media (350px) {
+      @include reposition-change (60px, 13px)
+
+    }
+  }
+
+    .s {
+    top: 167px;
+    left: 29px;
+
+    @include media (575px) {
+      top: 120px;
+    }
+
+    @include media (391px) {
+      @include reposition-change (102px, 19px)
+    }
+
+    @include media (350px) {
+      @include reposition-change (85px, 14px)
+    }
+  }

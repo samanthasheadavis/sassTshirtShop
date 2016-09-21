@@ -1,0 +1,40 @@
+* {
+  box-sizing:border-box;
+}
+
+.container {
+  overflow: hidden;
+  list-style: none;
+  width: 100%;
+  margin: $margin-center;
+}
+
+nav {
+  overflow: hidden;
+  background:$blue;
+  height: 45px;
+  color: white;
+  font-family: $font;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  span {
+    position: absolute;
+    padding: $pad10;
+  }
+
+  ul {
+    float: right;
+
+    li {
+      float: left;
+      padding: $pad10;
+      list-style-type: none;
+
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+}

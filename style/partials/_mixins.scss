@@ -1,0 +1,10 @@
+@mixin reposition-change ($top, $left){
+  top: $top;
+  left: $left;
+}
+
+@mixin media ($bp) {
+  @media only screen and (max-width: $bp) {
+     @content;
+   }
+}

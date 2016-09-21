@@ -1,0 +1,47 @@
+.icons {
+  position: relative;
+
+  td {
+    border: $border;
+    padding: 10px 0;
+    text-align: center;
+
+    &:hover {
+      background: $blue;
+    }
+
+    &:hover > a {
+    color:white;
+  }
+  }
+}
+
+.visibleIcons{
+  padding-left: 5px;
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  position: relative;
+
+    td a {
+      color: $blue;
+      text-decoration: none;
+    }
+}
+
+.xl {
+  font-family:$font;
+  font-weight: 700;
+}
+
+#blue a {
+  color:$blue;
+}
+
+#pink a {
+  color: $pink;
+}
+
+#yellow a {
+  color: $yellow;
+}

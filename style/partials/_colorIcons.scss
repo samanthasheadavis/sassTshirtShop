@@ -1,0 +1,78 @@
+.colorIcons {
+  @extend .sizeIcons;
+  left: 167px;
+
+    td {
+      border: none;
+      padding: 6px 0;
+      text-align: center;
+      background: white;
+    }
+
+    @include media (1150px) {
+      left: 58%
+    }
+
+    @include media (750px) {
+      left: 56%
+    }
+
+    @include media (350px) {
+      width: 52%;
+      left: 51%;
+    }
+}
+
+#blue {
+  .blue a {
+    color: $blue;
+  }
+
+  .pink a {
+    color: $pink;
+  }
+
+  .orange a {
+    color: $yellow;
+  }
+
+  .green a {
+    color: $green;
+  }
+}
+
+#pink {
+  .blue a {
+    color: $blue;
+  }
+
+  .pink a {
+    color: $pink;
+  }
+
+  .orange a {
+    color: $yellow;
+  }
+
+  .green a {
+    color: $green;
+  }
+}
+
+#yellow {
+  .blue a {
+    color: $blue;
+  }
+
+  .pink a {
+    color: $pink;
+  }
+
+  .orange a {
+    color: $yellow;
+  }
+
+  .green a {
+    color: $green;
+  }
+}

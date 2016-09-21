@@ -1,0 +1,33 @@
+.flip  {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: $z;
+
+  td {
+    border: $border;
+    padding: $pad10;
+    text-align: center;
+
+    &:hover {
+      background: $blue;
+    }
+
+    &:hover > a {
+      color:white;
+    }
+
+    a {
+      color: $blue;
+    }
+
+    @include media (575px) {
+      padding: 3px;
+    }
+
+    @include media (350px) {
+      padding: 1px;
+    }
+
+  }
+}

@@ -1,0 +1,44 @@
+
+.tshirt {
+  position: relative;
+}
+
+  li {
+
+    &.tshirt {
+    float:left;
+    width: 22%;
+    margin: 15px;
+    position: relative;
+    }
+}
+
+.shirtPic {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  border: $border;
+}
+
+li.tshirt {
+  @include media (800px) {
+    width: 28%;
+  }
+
+  @include media (575px) {
+    width: 27%;
+  }
+
+  @include media (475px) {
+    width: 42%;
+  }
+
+  @include media (391px) {
+    width: 35%;
+  }
+
+  @include media (350px) {
+    width: 29%;
+  }
+}
