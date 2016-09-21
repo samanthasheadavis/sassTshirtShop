@@ -8,3 +8,21 @@
      @content;
    }
 }
+
+@mixin colorIcons () {
+  .blue a {
+    color: $blue;
+  }
+
+  .pink a {
+    color: $pink;
+  }
+
+  .orange a {
+    color: $yellow;
+  }
+
+  .green a {
+    color: $green;
+  }
+}

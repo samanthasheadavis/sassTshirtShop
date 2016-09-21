@@ -24,55 +24,13 @@
 }
 
 #blue {
-  .blue a {
-    color: $blue;
-  }
-
-  .pink a {
-    color: $pink;
-  }
-
-  .orange a {
-    color: $yellow;
-  }
-
-  .green a {
-    color: $green;
-  }
+  @include colorIcons;
 }
 
 #pink {
-  .blue a {
-    color: $blue;
-  }
-
-  .pink a {
-    color: $pink;
-  }
-
-  .orange a {
-    color: $yellow;
-  }
-
-  .green a {
-    color: $green;
-  }
+  @include colorIcons;
 }
 
 #yellow {
-  .blue a {
-    color: $blue;
-  }
-
-  .pink a {
-    color: $pink;
-  }
-
-  .orange a {
-    color: $yellow;
-  }
-
-  .green a {
-    color: $green;
-  }
+  @include colorIcons;
 }
